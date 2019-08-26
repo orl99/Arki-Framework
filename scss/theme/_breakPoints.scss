@@ -1,0 +1,12 @@
+$breakpoints : (
+    s  : 0,     // Todos los tamaños,
+    xs : 320px,
+    m  : 40em,  // ~ 640px
+    lg : 64em,  // ~ 1024px
+    xl : 90em   // ~1440px
+);
+$sis-breakpoint-xs: 320px;
+$sis-breakpoint-s: 0;
+$sis-breakpoint-md: 640px;
+$sis-breakpoint-lg: 1024px;
+$sis-breakpoint-xl: 1440px;

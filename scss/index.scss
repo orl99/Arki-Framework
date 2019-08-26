@@ -1,0 +1,39 @@
+@import './imports';
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+
+.sis-contactUs-button{
+    width: 200px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #737e94;
+    color: white;
+    position: fixed;
+    top: 25vh;
+    left: calc(100vw - 200px);
+    z-index: 2000;
+    margin: auto 0;
+    border-radius: 5px;
+    padding: 7.5px 5px;
+    .sis-ContactUs{
+        justify-content: center;
+        align-content: center;
+        img{
+            width: 100%;
+            margin-top: auto;
+        }
+        p{
+            margin: 0;
+        }
+    }
+}
